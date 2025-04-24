@@ -9,7 +9,11 @@ divEl.innerHTML = `
 console.log(divEl.nodeName, divEl.cloneNode(true));
 
 // --- write some code ---
+const link = divEl.querySelector('a');
+link.setAttribute('href', '#top');
 
+const btn = divEl.querySelector('button');
+btn.innerText = 'to the top';
 // --- --- --- --- --- ---
 
 console.log(divEl.nodeName, divEl.cloneNode(true));
@@ -17,6 +21,6 @@ console.log(divEl.nodeName, divEl.cloneNode(true));
 console.assert(divEl.children[0].getAttribute('href') === '#top', 'Test: href');
 
 console.assert(
-    divEl.children[0].children[0].innerHTML === 'to the top',
-    'Test: button innerHTML',
+  divEl.children[0].children[0].innerHTML === 'to the top',
+  'Test: button innerHTML',
 );

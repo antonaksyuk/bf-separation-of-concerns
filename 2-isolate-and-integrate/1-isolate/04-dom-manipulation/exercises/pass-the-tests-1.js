@@ -10,6 +10,8 @@ console.log(divEl.nodeName + ' (before)', divEl.cloneNode(true));
 
 // --- write some code ---
 //  replace the <p>
+const paragraph = divEl.querySelector('p');
+paragraph.removeChild('p');
 //  insert something before the <section>
 //  remove the <h1>
 //  append something to the end
