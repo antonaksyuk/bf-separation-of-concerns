@@ -75,3 +75,15 @@ There is no linting script in this repository. It's for practice only, no need t
 ---
 
 ![draino in the fridge](./assets/draino-in-the-fridge.png)
+
+
+Week 1
+What went well?
+All
+What went less well?
+What lessons have I learned this week?
+event-driven programming
+entry points
+listeners
+DOM access
+DOM manipulation
